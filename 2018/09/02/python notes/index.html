@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="python," />
 
 
 
@@ -94,16 +94,18 @@
 
 
 
-<meta name="description" content="我希望可以一直开心">
-<meta property="og:type" content="website">
-<meta property="og:title" content="我叫瓜皮 (〃&#39;▽&#39;〃)">
-<meta property="og:url" content="https://guapisama.github.io/index.html">
+<meta name="description" content="对于python一直处在了解能用但是不熟练的状态，而且python众多包的资料查起来真的很麻烦，所以将python的一些容易忘记的知识点记录下来。 othersisinstance(x, str)用于判断一个变量x是否是字符串 函数的参数参数类型python的函数参数主要有： position arguments 位置参数一般函数常见的参数 默认参数一般位置参数在前，默认参数在后12def fun">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python notes 1">
+<meta property="og:url" content="https://guapisama.github.io/2018/09/02/python notes/index.html">
 <meta property="og:site_name" content="我叫瓜皮 (〃&#39;▽&#39;〃)">
-<meta property="og:description" content="我希望可以一直开心">
+<meta property="og:description" content="对于python一直处在了解能用但是不熟练的状态，而且python众多包的资料查起来真的很麻烦，所以将python的一些容易忘记的知识点记录下来。 othersisinstance(x, str)用于判断一个变量x是否是字符串 函数的参数参数类型python的函数参数主要有： position arguments 位置参数一般函数常见的参数 默认参数一般位置参数在前，默认参数在后12def fun">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-09-03T07:47:51.788Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我叫瓜皮 (〃&#39;▽&#39;〃)">
-<meta name="twitter:description" content="我希望可以一直开心">
+<meta name="twitter:title" content="python notes 1">
+<meta name="twitter:description" content="对于python一直处在了解能用但是不熟练的状态，而且python众多包的资料查起来真的很麻烦，所以将python的一些容易忘记的知识点记录下来。 othersisinstance(x, str)用于判断一个变量x是否是字符串 函数的参数参数类型python的函数参数主要有： position arguments 位置参数一般函数常见的参数 默认参数一般位置参数在前，默认参数在后12def fun">
 
 
 
@@ -132,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="https://guapisama.github.io/"/>
+  <link rel="canonical" href="https://guapisama.github.io/2018/09/02/python notes/"/>
 
 
 
 
 
-  <title>我叫瓜皮 (〃'▽'〃)</title>
+  <title>python notes 1 | 我叫瓜皮 (〃'▽'〃)</title>
   
 
 
@@ -163,9 +165,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -268,9 +268,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -300,9 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/02/python notes/" itemprop="url">python notes 1</a></h1>
+          <h1 class="post-title" itemprop="name headline">python notes 1</h1>
         
 
         <div class="post-meta">
@@ -374,9 +372,7 @@
       
 
       
-        
-          
-            <p>对于python一直处在了解能用但是不熟练的状态，而且python众多包的资料查起来真的很麻烦，所以将python的一些容易忘记的知识点记录下来。</p>
+        <p>对于python一直处在了解能用但是不熟练的状态，而且python众多包的资料查起来真的很麻烦，所以将python的一些容易忘记的知识点记录下来。</p>
 <h1 id="others"><a href="#others" class="headerlink" title="others"></a>others</h1><h2 id="isinstance-x-str"><a href="#isinstance-x-str" class="headerlink" title="isinstance(x, str)"></a>isinstance(x, str)</h2><p>用于判断一个变量x是否是字符串</p>
 <h1 id="函数的参数"><a href="#函数的参数" class="headerlink" title="函数的参数"></a>函数的参数</h1><h2 id="参数类型"><a href="#参数类型" class="headerlink" title="参数类型"></a>参数类型</h2><p>python的函数参数主要有：</p>
 <h3 id="position-arguments-位置参数"><a href="#position-arguments-位置参数" class="headerlink" title="position arguments 位置参数"></a>position arguments 位置参数</h3><p>一般函数常见的参数</p>
@@ -423,8 +419,6 @@
 </code></pre><p>注意到返回的函数在其定义内部引用了局部变量args，所以，当一个函数返回了一个函数后，其内部的局部变量还被新函数引用，所以，闭包用起来简单，实现起来可不容易。</p>
 <p>另一个需要注意的问题是，返回的函数并没有立刻执行，而是直到调用了f()才执行。</p>
 
-          
-        
       
     </div>
     
@@ -439,286 +433,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://guapisama.github.io/2018/09/01/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="guapi sama">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="我叫瓜皮 (〃'▽'〃)">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/01/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-01T16:22:18+08:00">
-                2018-09-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/python/" rel="tag"># python</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://guapisama.github.io/2018/08/01/markdown syntax/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="guapi sama">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="我叫瓜皮 (〃'▽'〃)">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/01/markdown syntax/" itemprop="url">markdown syntax</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-01T00:00:00+08:00">
-                2018-08-01
-              </time>
+              <a href="/2018/09/01/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/其他/" itemprop="url" rel="index">
-                    <span itemprop="name">其他</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>一级标题使用 #标题名字</p>
-<h2 id="宋体设置"><a href="#宋体设置" class="headerlink" title="宋体设置"></a><font color="#0099ff" size="12" face="宋体">宋体设置</font></h2><p><em>强调</em><br><strong>强调</strong><br>_强调_</p>
-<script type="math/tex; mode=display">\sum^{10}_{i=1}x^{i}=1</script><p><em>hello<br>world</em><br><img src="/images/Markdown语法.png" alt="总结"></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -728,10 +472,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -739,6 +484,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -759,8 +508,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -822,6 +580,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#others"><span class="nav-number">1.</span> <span class="nav-text">others</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#isinstance-x-str"><span class="nav-number">1.1.</span> <span class="nav-text">isinstance(x, str)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#函数的参数"><span class="nav-number">2.</span> <span class="nav-text">函数的参数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#参数类型"><span class="nav-number">2.1.</span> <span class="nav-text">参数类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#position-arguments-位置参数"><span class="nav-number">2.1.1.</span> <span class="nav-text">position arguments 位置参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#默认参数"><span class="nav-number">2.1.2.</span> <span class="nav-text">默认参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#可变参数-Variable-arguments"><span class="nav-number">2.1.3.</span> <span class="nav-text">可变参数 Variable arguments</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关键字参数-keyword-arguments"><span class="nav-number">2.1.4.</span> <span class="nav-text">关键字参数 keyword arguments</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命名关键字参数"><span class="nav-number">2.1.5.</span> <span class="nav-text">命名关键字参数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参数组合"><span class="nav-number">2.2.</span> <span class="nav-text">参数组合</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#举例"><span class="nav-number">2.3.</span> <span class="nav-text">举例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#特性"><span class="nav-number">3.</span> <span class="nav-text">特性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#列表生成式-list-generator"><span class="nav-number">3.1.</span> <span class="nav-text">列表生成式 list generator</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生成器-generator"><span class="nav-number">3.2.</span> <span class="nav-text">生成器 generator</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#迭代器-Iterator"><span class="nav-number">3.3.</span> <span class="nav-text">迭代器 Iterator</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#函数式编程"><span class="nav-number">4.</span> <span class="nav-text">函数式编程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#特性-1"><span class="nav-number">4.1.</span> <span class="nav-text">特性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#map-reduce"><span class="nav-number">4.1.1.</span> <span class="nav-text">map/reduce</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#匿名函数"><span class="nav-number">4.2.</span> <span class="nav-text">匿名函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#decorator"><span class="nav-number">4.3.</span> <span class="nav-text">decorator</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#闭包"><span class="nav-number">4.4.</span> <span class="nav-text">闭包</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -938,10 +712,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 

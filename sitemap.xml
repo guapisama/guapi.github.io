@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://guapisama.github.io/2018/09/02/python%20notes/</loc>
+    
+    <lastmod>2018-09-03T07:47:51.788Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://guapisama.github.io/about/index.html</loc>
     
     <lastmod>2018-09-02T12:58:11.890Z</lastmod>
@@ -30,23 +37,9 @@
   </url>
   
   <url>
-    <loc>https://guapisama.github.io/2018/09/01/hello-world-1/</loc>
-    
-    <lastmod>2018-09-01T08:34:32.030Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://guapisama.github.io/2018/09/01/hello-world/</loc>
     
     <lastmod>2018-09-01T08:22:18.330Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://guapisama.github.io/2018/09/01/2018-08-15/</loc>
-    
-    <lastmod>2018-08-15T08:30:30.793Z</lastmod>
     
   </url>
   
