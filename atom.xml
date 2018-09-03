@@ -62,18 +62,13 @@
     <link href="https://guapisama.github.io/2018/08/01/markdown%20syntax/"/>
     <id>https://guapisama.github.io/2018/08/01/markdown syntax/</id>
     <published>2018-07-31T16:00:00.000Z</published>
-    <updated>2018-09-03T09:26:40.615Z</updated>
+    <updated>2018-09-03T09:28:32.742Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>一级标题使用 #标题名字</p><h2 id="宋体设置"><a href="#宋体设置" class="headerlink" title="宋体设置"></a><font color="#0099ff" size="12" face="宋体">宋体设置</font></h2><p><em>强调</em><br><strong>强调</strong><br>_强调_</p><script type="math/tex; mode=display">\sum^{10}_{i=1}x^{i}=1</script><p><em>hello<br>world</em><br><img src="/images/Markdown语法.png" alt="总结"></p>]]></content>
+    <content type="html"><![CDATA[<p>markdown的主要语法<br><a id="more"></a></p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>一级标题使用 #标题名字</p><h2 id="宋体设置"><a href="#宋体设置" class="headerlink" title="宋体设置"></a><font color="#0099ff" size="12" face="宋体">宋体设置</font></h2><p><em>强调</em><br><strong>强调</strong><br>_强调_</p><script type="math/tex; mode=display">\sum^{10}_{i=1}x^{i}=1</script><p><em>hello<br>world</em><br><img src="/images/Markdown语法.png" alt="总结"></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;p&gt;一级标题使用 #标题名字&lt;/p&gt;
-&lt;h2 id=&quot;宋体设置&quot;&gt;&lt;a href=&quot;#宋体设
-      
+      &lt;p&gt;markdown的主要语法&lt;br&gt;
     
     </summary>
     
